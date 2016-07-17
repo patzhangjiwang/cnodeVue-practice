@@ -1,0 +1,60 @@
+{
+  "name": "cnodevue",
+  "version": "1.0.0",
+  "description": "a Vue.js project",
+  "main": "app.js",
+  "scripts": {
+      "start": "node server",
+      "dev": "webpack-dev-server --hot --inline --colors --progress --config webpack.config.babel.js",
+      "build": "webpack --colors --progress --config webpack.config.prod.babel.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patzhangjiwang/cnodeVue-practice.git"
+  },
+  "keywords": [
+    "cnode",
+    "vue"
+  ],
+  "author": "zhangjiwang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patzhangjiwang/cnodeVue-practice/issues"
+  },
+  "homepage": "https://github.com/patzhangjiwang/cnodeVue-practice#readme",
+  "dependencies": {
+  "autoprefixer": "^6.3.3",
+  "babel-preset-stage-3": "^6.3.13",
+  "es6-promise": "^3.1.2",
+  "extract-text-webpack-plugin": "^1.0.1",
+  "http-server": "^0.9.0",
+  "kneden": "^1.0.2",
+  "postcss": "^5.0.19",
+  "postcss-loader": "^0.8.1",
+  "style-loader": "^0.13.0",
+  "vue": "^1.0.0",
+  "vue-router": "^0.7.11",
+  "whatwg-fetch": "^0.11.0"
+},
+"devDependencies": {
+  "babel-core": "^6.0.0",
+  "babel-loader": "^6.0.0",
+  "babel-plugin-transform-runtime": "^6.0.0",
+  "babel-preset-es2015": "^6.0.0",
+  "babel-preset-stage-2": "^6.0.0",
+  "babel-runtime": "^5.8.0",
+  "cross-env": "^1.0.6",
+  "css-loader": "^0.23.0",
+  "file-loader": "^0.8.4",
+  "json-loader": "^0.5.4",
+  "url-loader": "^0.5.7",
+  "vue-hot-reload-api": "^1.2.0",
+  "vue-html-loader": "^1.0.0",
+  "vue-loader": "^8.0.0",
+  "vue-style-loader": "^1.0.0",
+  "webpack": "^1.12.2",
+  "webpack-dev-server": "^1.12.0"
+}
+
+}
